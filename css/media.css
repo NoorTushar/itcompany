@@ -1,0 +1,776 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .cmn_topheading {
+    font-size: 17px;
+  }
+  .cmn_heading {
+    margin: 12px 0 12px !important;
+    font-size: 25px;
+    line-height: 40px;
+  }
+  /* Header Start */
+  .custom_nav {
+    padding: 5px 0;
+  }
+  .custom_logo {
+    width: 27%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .header_button {
+    margin-bottom: 10px;
+    padding: 10px 14px;
+  }
+  .custom_menu ul li {
+    margin: 0;
+  }
+  /* Header End */
+
+  /* Banner Start */
+  .banner_contents h2 {
+    text-align: start;
+    font-size: 17px;
+    line-height: 30px;
+  }
+  .banner_contents h1 {
+    margin: 20px 0 !important;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: start;
+  }
+  .banner_contents p {
+    margin-bottom: 33px !important;
+    padding: 0px 0px;
+    font-size: 16px;
+    text-align: start;
+  }
+  .buttons_banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner_button {
+    width: 50%;
+    padding: 12px 20px;
+    font-size: 12px;
+  }
+  .banner_button_2 {
+    margin-top: 12px;
+  }
+  /* Banner End */
+
+  /* Type Start */
+  .type_contents {
+    padding: 15px 0;
+  }
+  .type_contents p:first-child {
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .type_contents p:last-child {
+    font-size: 16px;
+  }
+  /* Type End */
+  /* About Us Start */
+  .about_us {
+    padding: 60px 0;
+  }
+  .picture_gallery {
+    margin-top: 42px;
+  }
+  .left_bottom_pic img {
+    margin-top: 14px;
+  }
+  .right-pictures img {
+    margin-top: 14px;
+  }
+  #about_us_carousel {
+    padding: 20px 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  .third_column h3 {
+    font-size: 22px;
+    line-height: 33px;
+  }
+  .third_column p {
+    margin: 20px 0 40px !important;
+  }
+
+  .inside_row div span {
+    font-size: 30px;
+  }
+
+  .best_company {
+    margin-top: 3px;
+    padding-left: 20px;
+  }
+  .third_column button {
+    margin-top: 35px;
+    padding: 12px 45px;
+    font-size: 14px;
+  }
+  /* About us End */
+
+  /* why us start */
+  .why_us {
+    padding: 60px 0;
+  }
+  .why_us::after {
+    height: 100%;
+  }
+  .why_us_box {
+    padding: 0;
+  }
+  .why_us_box button {
+    width: 80%;
+    padding: 10px;
+    bottom: 20px;
+  }
+  /* why us end */
+  /* services start */
+  .services {
+    padding: 60px 0;
+  }
+  .service_btn {
+    margin-bottom: 20px;
+  }
+  .serv_col_ {
+    padding: 20px !important;
+  }
+  .service_box {
+    padding: 32px 10px;
+  }
+  .service_box h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .service_icon i {
+    height: 70px;
+    width: 70px;
+    border: none;
+    font-size: 33px;
+    line-height: 70px;
+  }
+  .service_button {
+    padding: 15px 50px !important;
+    font-size: 12px;
+    margin-top: 8px;
+  }
+
+  /* services end */
+  /* Testi Start */
+  .testi-box {
+    padding: 25px 8px 60px 13px;
+  }
+  .testimonial {
+    min-height: 650px;
+  }
+  /* Testi End */
+  /* **** Team Start **** */
+  .team {
+    padding: 60px 0;
+  }
+  .team_image {
+    width: 30%;
+    margin: 0 auto;
+  }
+  .team_col {
+    padding: 0 10px;
+    margin-top: 40px;
+  }
+  .team_contents {
+    padding: 25px 0;
+  }
+
+  .team_contents:hover .team_h3 {
+    margin: 0 !important;
+    font-size: 30px;
+    color: #ff6058;
+  }
+  .team_contents:hover .team_socials {
+    transform: translateY(-110px);
+    transition: 0.5s;
+  }
+  .team_contents:hover .team_socials i {
+    font-size: 20px;
+  }
+  /* **** Team End **** */
+  /* trademark start */
+  footer {
+    padding: 30px 0;
+  }
+  .trademark {
+    padding: 0 60px;
+  }
+  .trademark p {
+    line-height: 35px;
+  }
+  .footer_info {
+    margin: 15px 0;
+  }
+  .footer_info ul li {
+    display: block;
+    margin: 10px 0;
+  }
+  /* trademark end */
+  .custom_owl_item {
+    width: 50% !important;
+  }
+  /* Subscribe */
+
+  .subscribe form input {
+    width: 100%;
+    padding: 20px 15px;
+    padding-right: 113px;
+    font-size: 12px;
+  }
+  .subscribe form input::placeholder {
+    font-size: 12px;
+  }
+  .subscribe form button {
+    right: 8px;
+    font-size: 12px;
+    padding: 10px 9px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .cmn_topheading {
+    font-size: 17px;
+  }
+  .cmn_heading {
+    margin: 12px 0 12px !important;
+    font-size: 25px;
+    line-height: 55px;
+  }
+  /* Header Start */
+  .custom_nav {
+    padding: 5px 0;
+  }
+  .custom_logo {
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .header_button {
+    margin-bottom: 10px;
+    padding: 10px 14px;
+  }
+  .custom_menu ul li {
+    margin: 0;
+  }
+  /* Header End */
+  /* Banner Start */
+  .banner_contents h2 {
+    font-size: 18px;
+  }
+
+  .banner_contents h1 {
+    margin: 35px 0 !important;
+    font-size: 40px;
+  }
+  .banner_contents p {
+    margin-bottom: 36px !important;
+    padding: 0px 25px;
+    font-size: 16px;
+  }
+  .banner_button {
+    padding: 12px 25px;
+    font-size: 12px;
+  }
+  /* Banner End */
+  /* Type Start */
+  .type_contents {
+    padding: 15px 0;
+  }
+  .type_contents p:first-child {
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .type_contents p:last-child {
+    font-size: 16px;
+  }
+  /* Type End */
+  /* About Us Start */
+  .about_us {
+    padding: 60px 0;
+  }
+  .picture_gallery {
+    margin-top: 42px;
+    padding: 0 55px;
+  }
+  .left_bottom_pic img {
+    margin-top: 24px;
+  }
+  .right-pictures img {
+    margin-top: 24px;
+  }
+  #about_us_carousel {
+    padding: 20px 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  .third_column h3 {
+    font-size: 22px;
+  }
+  .third_column p {
+    margin: 20px 0 40px !important;
+  }
+
+  .inside_row div span {
+    font-size: 30px;
+  }
+  .right_column {
+    padding-left: 0;
+  }
+
+  .best_company {
+    margin-top: 9px;
+    padding-left: 20px;
+  }
+  .third_column button {
+    margin-top: 35px;
+    padding: 15px 50px;
+    font-size: 14px;
+  }
+  /* About us End */
+
+  /* why us start */
+  .why_us {
+    padding: 60px 0;
+  }
+  .why_us::after {
+    height: 60%;
+  }
+  .why_us_box {
+    padding: 0 130px;
+  }
+  .why_us_box button {
+    width: 40%;
+    padding: 7px;
+    bottom: 20px;
+  }
+  /* why us end */
+  /* services start */
+  .services {
+    padding: 60px 0;
+  }
+  .service_btn {
+    margin-bottom: 20px;
+  }
+  .service_button {
+    padding: 15px 35px !important;
+  }
+  .service_box {
+    padding: 32px 10px;
+  }
+  .service_box h3 {
+    font-size: 20px;
+    margin-top: 25px;
+  }
+
+  .service_icon i {
+    height: 70px;
+    width: 70px;
+    border: none;
+    font-size: 33px;
+    line-height: 70px;
+  }
+
+  /* services end */
+  /* Testi Start */
+  .testimonial {
+    min-height: 650px;
+  }
+  .testi-box {
+    padding: 40px 30px 60px 30px;
+  }
+  /* Testi End */
+  /* **** Team Start **** */
+  .team {
+    padding: 60px 0;
+  }
+  .team_col {
+    margin-top: 54px;
+    padding: 0 80px;
+  }
+  .team_contents {
+    padding: 25px 0;
+  }
+  .team_image {
+    width: 30%;
+    margin: 0 auto;
+  }
+
+  .team_contents:hover .team_h3 {
+    margin: 0 !important;
+    font-size: 30px;
+    color: #ff6058;
+  }
+  .team_contents:hover .team_socials {
+    transform: translateY(-110px);
+    transition: 0.5s;
+  }
+  .team_contents:hover .team_socials i {
+    font-size: 20px;
+  }
+  /* **** Team End **** */
+
+  /* Subscribe */
+  .subscribe form input {
+    padding-right: 145px;
+  }
+
+  .subscribe form button {
+    right: 10px;
+  }
+  .sub_button {
+    padding: 16px 17px;
+  }
+  /* trademark start */
+  footer {
+    padding: 40px 0;
+  }
+  .footer_info {
+    margin: 15px 0;
+  }
+  /* trademark end */
+  .custom_owl_item {
+    width: 40% !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .cmn_heading {
+    margin: 12px 0 20px !important;
+    font-size: 30px;
+    line-height: 55px;
+  }
+  /* Header Start */
+  .custom_nav {
+    padding: 5px 0;
+  }
+  .custom_logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .header_button {
+    margin-bottom: 10px;
+  }
+  .custom_menu ul li {
+    margin: 0;
+  }
+
+  .team_col {
+    margin-top: 60px !important;
+    padding: 0 80px;
+  }
+  .team_contents {
+    padding: 25px 0;
+  }
+  .team_image {
+    width: 26%;
+    margin: 0 auto;
+  }
+
+  .team_contents:hover .team_h3 {
+    margin: 0 !important;
+    font-size: 30px;
+    color: #ff6058;
+  }
+  .team_contents:hover .team_socials {
+    transform: translateY(-110px);
+    transition: 0.5s;
+  }
+  .team_contents:hover .team_socials i {
+    font-size: 20px;
+  }
+  /* Header End */
+
+  /* Banner Start */
+
+  .banner_contents h2 {
+    font-size: 20px;
+  }
+  .banner_contents h1 {
+    margin: 35px 0 !important;
+    font-size: 50px;
+  }
+  .banner_contents p {
+    margin-bottom: 36px !important;
+    font-size: 16px;
+  }
+  /* Banner End */
+
+  /* Type Start */
+  .type_contents {
+    padding: 25px 0;
+  }
+  .type_contents p:first-child {
+    font-size: 45px;
+  }
+  .type_contents p:last-child {
+    font-size: 20px;
+  }
+  /* Type End */
+
+  /* About Us Start */
+  .about_us {
+    padding: 60px 0;
+  }
+  .picture_gallery {
+    margin-top: 42px;
+    padding: 0 120px;
+  }
+  .left_bottom_pic img {
+    margin-top: 25px;
+  }
+  .right-pictures img {
+    margin-top: 25px;
+  }
+  #about_us_carousel {
+    padding: 20px 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  .third_column h3 {
+    font-size: 22px;
+  }
+  .third_column p {
+    margin: 20px 0 60px !important;
+  }
+
+  .inside_row div span {
+    font-size: 30px;
+  }
+  .right_column {
+    padding-left: 0;
+  }
+
+  .best_company {
+    margin-top: 9px;
+    padding: 0;
+  }
+  .third_column button {
+    margin-top: 35px;
+    padding: 15px 35px;
+    font-size: 14px;
+  }
+  /* About Us End */
+  /* why us start */
+  .why_us {
+    padding: 60px 0;
+  }
+  .why_us::after {
+    height: 59%;
+  }
+
+  .why_us_box {
+    padding: 0 205px;
+  }
+
+  .why_us_box button {
+    width: 35%;
+    padding: 8px;
+    bottom: 25px;
+  }
+  /* why us end */
+  /* services start */
+  .services {
+    padding: 60px 0;
+  }
+  .service_btn {
+    margin-bottom: 20px;
+  }
+  .service_box {
+    padding: 30px;
+  }
+  .service_icon i {
+    height: 70px;
+    width: 70px;
+    border: none;
+    font-size: 33px;
+    line-height: 70px;
+  }
+
+  /* services end */
+
+  /* Testi Start */
+  .testimonial {
+    min-height: 650px;
+  }
+  /* Testi End */
+  /* **** Team Start **** */
+  .team {
+    padding: 60px 0;
+  }
+  .team_col {
+    margin-top: 40px;
+    padding: 0 130px;
+  }
+  .team_contents:hover .team_socials i {
+    font-size: 25px;
+  }
+
+  /* **** Team End **** */
+  /* trademark start */
+  footer {
+    padding: 60px 0;
+  }
+  .footer_info {
+    margin: 25px 0;
+  }
+  /* trademark end */
+  .custom_owl_item {
+    width: 40% !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .cmn_heading {
+    margin: 10px 0 10px !important;
+    font-size: 40px;
+    font-weight: 600;
+    color: #212121;
+    line-height: 60px;
+  }
+
+  /* About Us Start */
+  .third_column p {
+    margin: 20px 0 40px !important;
+  }
+
+  .inside_row div span {
+    font-size: 44px;
+  }
+  .right_column {
+    padding-left: 37px;
+  }
+
+  .best_company {
+    margin-top: 9px;
+    padding-left: 28px;
+  }
+  .third_column button {
+    padding: 20px 50px;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  /* About Us End */
+
+  /* services start */
+  .service_button {
+    padding: 15px 40px;
+    font-size: 12px;
+  }
+  .service_box {
+    padding: 28px;
+  }
+  /* services end */
+  /* Testi Start */
+  .testimonial {
+    min-height: 700px;
+  }
+  .testimonial::after {
+    background-color: transparent;
+    background-image: linear-gradient(
+      115deg,
+      rgba(0, 0, 0, 0.7) 72%,
+      rgba(255, 255, 255, 0) 28%
+    );
+  }
+  /* Testi End */
+  /* Team Start */
+  .team_col {
+    margin-top: 60px !important;
+  }
+  .team_image {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .team_contents:hover .team_h3 {
+    margin: 0 !important;
+    font-size: 40px;
+    color: #ff6058;
+  }
+  .team_contents:hover .team_socials {
+    transform: translateY(-130px);
+    transition: 0.5s;
+  }
+  /* Team End */
+  /* trademark start */
+  footer {
+    padding: 60px 0;
+  }
+  .footer_info {
+    margin: 25px 0;
+  }
+  /* trademark end */
+
+  .custom_owl_item {
+    width: 70% !important;
+  }
+}
+
+/* Extra Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* Banner Start */
+  /* Banner End */
+  /* Testi Start */
+  .testimonial::after {
+    background-color: transparent;
+    background-image: linear-gradient(
+      115deg,
+      rgba(0, 0, 0, 0.7) 61%,
+      rgba(255, 255, 255, 0) 28%
+    );
+  }
+  /* Testi End */
+
+  /* trademark start */
+  .footer_info {
+    margin: 25px 0;
+  }
+  /* trademark end */
+}
+
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .banner_contents h2 {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: white;
+  }
+  .banner_contents h1 {
+    margin: 40px 0 !important;
+    font-size: 70px;
+    font-weight: 900;
+    color: white;
+  }
+  .banner_contents p {
+    margin-bottom: 50px !important;
+    padding: 0 90px;
+    font-size: 20px;
+    color: white;
+  }
+  .banner_button {
+    margin: 0 5px;
+    padding: 15px 40px;
+    font-size: 14px;
+  }
+
+  /* Testi Start */
+  .testimonial::after {
+    background-color: transparent;
+    background-image: linear-gradient(
+      115deg,
+      rgba(0, 0, 0, 0.7) 58%,
+      rgba(255, 255, 255, 0) 28%
+    );
+  }
+  /* Testi End */
+}
