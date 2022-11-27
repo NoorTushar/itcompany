@@ -58,6 +58,21 @@ body {
 
 /* *** Common CSS End**** */
 
+/* **** Preloader Start **** */
+.preloader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000000000;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/preloader.gif");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /* **** Header Start **** */
 header {
   background-color: rgba(0, 0, 0, 1);
@@ -89,10 +104,37 @@ header {
   color: white;
   transition: 0.3s;
   font-weight: 500 !important;
+  position: relative;
 }
 .custom_menu ul li a:hover {
   color: #ff6058 !important;
   transition: 0.3s;
+}
+.custom_menu ul li a::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: #ff6058;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.custom_menu ul li a:hover::after {
+  width: 100%;
+}
+.custom_menu ul li a::before {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: #ff6058;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transition: 0.5s;
+}
+.custom_menu ul li a:hover::before {
+  width: 100%;
 }
 .header_button {
   font-size: 14px;
